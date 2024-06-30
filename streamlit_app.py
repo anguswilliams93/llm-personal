@@ -7,6 +7,7 @@ from sklearn.metrics import mean_squared_error, r2_score
 import altair as alt
 import time
 import zipfile
+import openai
 
 # Page title
 st.set_page_config(page_title='ML model builder', page_icon='🏗️')
@@ -29,6 +30,7 @@ with st.expander('About this app'):
 - Scikit-learn for building a machine learning model
 - Altair for chart creation
 - Streamlit for user interface
+- Openai for assistant management
   ''', language='markdown')
 
 
